@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/yoonjochoi/Desktop/yoonjoPortfolio/venv"
+VIRTUAL_ENV="/Users/Elyte/Desktop/what-is-the-digital-iq-web/venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

@@ -1,4 +1,4 @@
-#!/Users/yoonjochoi/Desktop/yoonjoPortfolio/venv/bin/python
+#!/Users/Elyte/Desktop/what-is-the-digital-iq-web/venv/bin/python
 # EASY-INSTALL-ENTRY-SCRIPT: 'pip==1.2.1','console_scripts','pip'
 __requires__ = 'pip==1.2.1'
 import sys
