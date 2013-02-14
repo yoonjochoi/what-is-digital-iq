@@ -1,0 +1,204 @@
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+
+
+
+
+
+body {
+	margin:0px;
+	padding:0px;
+/* 	background: url(/static/img/background.jpg) no-repeat center center fixed; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow:scroll;
+	height: 3000px;
+}
+
+
+
+/****** FONTS ******/
+.fontRaleway{
+	font-family: 'Raleway', sans-serif; 
+	font-weight: 100;
+}
+
+.c-white{
+	color: #fff;
+}
+
+.text-align-center{
+	text-align: center;
+}
+
+.s1{
+	font-size: 12px;
+}
+
+.s2{
+	font-size: 15px;
+}
+
+/* white background */
+div.container {
+/*      background: rgba(255, 255, 255, 0.6); */
+}
+
+h1.pageheader a, h1.pageheader a:hover {
+    font-family: 'Raleway', sans-serif;
+    font-size:65px;
+    line-height:72px;
+
+    color:red;
+    text-shadow: 3px 3px 3px #000;
+    /* text-align:center; */
+    margin: 0 auto;
+
+}
+
+p,li, label {
+    font-size:18px;
+}
+
+footer { text-align: center;}
+
+
+.span-center{
+	text-align: center;
+}
+
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+/****** CONTENTS ******/
+/* TOP */
+#header{
+	position: fixed;
+	width:940px;
+}
+
+
+#yoonjoIs{
+	position: fixed;
+	background-color: #A7D5BC;
+	padding: 20px;
+	border-radius: 10px;
+	/* margin-top: 30px; */
+	width: 760px;
+	margin: 0 auto;
+	top:100%;
+}
+
+/* MIDDLE */
+.shadow {
+	-moz-box-shadow: 0px 0px 30px #aaa;
+	-webkit-box-shadow: 0px 0px 30px #aaa;
+	box-shadow: 0px 0px 30px #aaa;
+}
+
+
+#middle{
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:0%;
+	left: 0px;
+}
+
+#topBanner{
+	position: fixed;
+	width: 100%;
+	height:110px;
+	top:100%;
+	left: 0px;
+	background-color:#fff;
+}
+
+#thumbnailsContainer{
+	position: relative;
+	width: 100%;
+	height:100%;
+	top:110px;
+	left: 0px;
+	background-color:#fff;	
+	z-index: -2;
+}
+
+#aboutIcon{
+	position: relative;
+	top: 24px;
+	left: 43px;
+}
+
+#aboutYoonjoChoi{
+	position: relative;
+	top: 62px;
+	left: 60px;
+}
+
+/* BOTTOM */
+#bottom{
+	position: fixed;
+	width: 100%;
+	height:100%;
+	top:110px;
+	left: 0px;
+	background-color:#E0E1E2;
+	z-index: -1;
+}
+
+
+.red{
+	background-color: red;
+}
+
+.testSize{
+	height:100px;
+}
+
+.center{
+	height: 500px;
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 200px;
+/*
+	position: fixed;
+	left: 50%;
+	margin-left: -470px;
+*/
+
+/*
+	display: -webkit-box;
+	display: -moz-box;
+	display: box;
+
+	-webkit-box-align: start;
+	-moz-box-align: start;
+	box-align: start;
+
+	-webkit-box-pack: center;
+	-moz-box-pack: center;
+	box-pack: center;
+}
+
+.box-3{
+	-webkit-box-flex: 3;
+	-moz-box-flex: 3;
+	box-flex: 3;
+*/
+}
+
+.width{
+	width:30%;
+}
+
