@@ -17,7 +17,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	overflow:scroll;
-	height: 3000px;
+	height: 4000px;
 }
 
 
@@ -26,6 +26,22 @@ body {
 .fontRaleway{
 	font-family: 'Raleway', sans-serif; 
 	font-weight: 100;
+}
+
+.c-kiwi{
+	color:#a0cd55;
+}
+
+.c-orange{
+	color:#ff6f3e;
+}
+
+.c-lake{
+	color:#3b94d1;
+}
+
+.c-orchid{
+	color:#bf4398
 }
 
 .c-white{
@@ -42,6 +58,15 @@ body {
 
 .s2{
 	font-size: 15px;
+}
+
+.s4{
+	font-size:24px;
+	line-height: 27px;
+}
+
+.s6{
+	font-size: 60px;
 }
 
 /* white background */
@@ -81,6 +106,89 @@ footer { text-align: center;}
 }
 
 /****** CONTENTS ******/
+#landing-page{
+	position:fixed;
+}
+
+#l2-logo{
+	position:fixed;
+}
+
+h1{
+	position:fixed;
+}
+
+#intro-page{
+	position:fixed;
+}
+
+#intro-page-site{
+	position:fixed;
+}
+
+#intro-page-digital-marketing{
+	position:fixed;
+}
+
+#intro-page-mobile{
+	position:fixed;
+}
+
+#intro-page-social-media{
+	position:fixed;
+}
+
+#site{
+	position:fixed;
+}
+
+#digitalMarketing{
+	position:fixed;
+}
+
+#mobile{
+	position:fixed;
+}
+
+#socialMedia{
+	position:fixed;
+}
+
+#bottom-icon-site{
+	position:fixed;
+}
+
+#bottom-icon-digital-marketing{
+	position:fixed;
+}
+
+#bottom-icon-Mobile{
+	position:fixed;
+}
+
+#bottom-icon-social-media{
+	position:fixed;
+}
+
+
+#ranking{
+	position:fixed;
+}
+
+.bg-kiwi{
+	background-color: #a0cd55;
+	width: window.width;
+	height: window.height;
+}
+
+
+
+
+
+
+
+
+
 /* TOP */
 #header{
 	position: fixed;
@@ -134,17 +242,6 @@ footer { text-align: center;}
 	z-index: -2;
 }
 
-#aboutIcon{
-	position: relative;
-	top: 24px;
-	left: 43px;
-}
-
-#aboutYoonjoChoi{
-	position: relative;
-	top: 62px;
-	left: 60px;
-}
 
 /* BOTTOM */
 #bottom{
@@ -157,20 +254,13 @@ footer { text-align: center;}
 	z-index: -1;
 }
 
-
-.red{
-	background-color: red;
-}
-
-.testSize{
-	height:100px;
-}
-
 .center{
-	height: 500px;
-	width: 940px;
-	margin: 0 auto;
-	padding-top: 200px;
+/* 	height: 500px; */
+	width: 1100px;
+/* 	margin: 0 auto; */
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
 /*
 	position: fixed;
 	left: 50%;
