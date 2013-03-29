@@ -17,7 +17,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 	overflow:scroll;
-	height: 4000px;
+	height: 20000px;
 }
 
 
@@ -65,8 +65,16 @@ body {
 	line-height: 27px;
 }
 
+.s5{
+	font-size:45px;
+}
+
 .s6{
 	font-size: 60px;
+}
+
+.s7{
+	font-size: 36px;
 }
 
 /* white background */
@@ -138,41 +146,244 @@ h1{
 	position:fixed;
 }
 
+#intro-page-text{
+	position: fixed;
+}
+
+#top-background{
+	position: fixed;
+	background-color: blue;
+	width: 970px;
+	height: 200px;
+}
+
 #site{
 	position:fixed;
+	width: 970px;
+	height: 100%;
+}
+
+#site-main{
+	position: fixed;
+}
+
+#site-arrow-1{
+	position: fixed;
+	margin-left: -132px;
+	margin-top: 129px;
+}
+
+#site-arrow-2{
+	position: fixed;
+	margin-top: -132px;
+}
+
+#site-arrow-3{
+	position: fixed;
+	margin-left: 255px;
+	margin-top: -21px;
 }
 
 #digitalMarketing{
+	position:fixed;
+	width: 970px;
+	height: 100%;
+}
+
+#digital-marketing-main{
+	position:fixed;
+}
+
+#digital-marketing-texture-1{
+	position:fixed;
+}
+
+#digital-marketing-texture-2{
 	position:fixed;
 }
 
 #mobile{
 	position:fixed;
+	width: 970px;
+	height: 100%;
+}
+
+#mobile-main{
+	position:fixed;
+}
+
+#mobile-ring1{
+	position:fixed;
+}
+#mobile-ring2{
+	position:fixed;
+}
+#mobile-ring3{
+	position:fixed;
+}
+#mobile-rings{
+	position:fixed;
 }
 
 #socialMedia{
 	position:fixed;
+	width: 970px;
+	height: 100%;
+}
+
+#social-media-main{
+	position: fixed;
+}
+
+#social-media-sub-1{
+	position: fixed;
+}
+
+#social-media-sub-2{
+	position: fixed;
+}
+
+#bg-bottom-icon{
+	position:fixed;
+}
+
+.pos-bottom-icons{
+	position:relative; 
+	left:100px; 
+	top:30px;	
+}
+
+#wrap-bottom-icons{
+	position: fixed;
+}
+
+#BI-bg1{
+	position:fixed;
+}
+
+#BI-bg2{
+	position:fixed;
+}
+
+#BI-bg3{
+	position:fixed;
+}
+
+#BI-bg4{
+	position:fixed;
+}
+
+#BI1{
+	position:fixed;
+}
+
+#BI2{
+	position:fixed;
+}
+
+#BI3{
+	position:fixed;
+}
+
+#BI4{
+	position:fixed;
 }
 
 #bottom-icon-site{
-	position:fixed;
+	position:relative; 
+	left:100px; 
+	top:10px;
 }
 
 #bottom-icon-digital-marketing{
-	position:fixed;
+	position:relative;
 }
 
 #bottom-icon-Mobile{
-	position:fixed;
+	position:relative;
 }
 
 #bottom-icon-social-media{
+	position:relative;
+}
+
+#span-Ranking{
+	position: fixed;
+}
+
+#span-Reports{
 	position:fixed;
 }
 
+#span-DigitalIQ{
+	position: fixed;
+}
 
-#ranking{
+#ranking-bg{
 	position:fixed;
+}
+
+#wrap-reports{
+	position:fixed;	
+	width: 970px;
+/* 	background-color:#a0cd55; */
+}
+
+#ranking-reportcover1-1{
+	position:fixed;		
+}
+#ranking-reportcover1-2{
+	position:fixed;		
+}
+#ranking-reportcover1-3{
+	position:fixed;		
+}
+#ranking-reportcover1-4{
+	position:fixed;		
+}
+#ranking-reportcover2-1{
+	position:fixed;		
+}
+#ranking-reportcover2-2{
+	position:fixed;		
+}
+#ranking-reportcover2-3{
+	position:fixed;		
+}
+#ranking-reportcover2-4{
+	position:fixed;		
+}
+#ranking-reportcover3-1{
+	position:fixed;		
+}
+#ranking-reportcover3-2{
+	position:fixed;		
+}
+#ranking-reportcover3-3{
+	position:fixed;		
+}
+#rranking-homepagelink{
+	position:fixed;		
+}
+
+#R1{
+	position: fixed;
+}
+
+#R2{
+	position: fixed;
+}
+
+#R3{
+	position: fixed;
+}
+
+#R4{
+	position: fixed;
+}
+
+#R5{
+	position: fixed;
 }
 
 .bg-kiwi{
@@ -256,7 +467,7 @@ h1{
 
 .center{
 /* 	height: 500px; */
-	width: 1100px;
+	width: 970px;
 /* 	margin: 0 auto; */
 	margin-left: auto;
 	margin-right: auto;
